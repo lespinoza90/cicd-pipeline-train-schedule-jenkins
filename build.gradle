@@ -1,5 +1,6 @@
-apply plugin: 'com.moowork.node' // gradle-node-plugin
-
+plugins {
+  id "com.moowork.node" version "1.3.1"
+}
 node {
 	download = true
 	version = "10.14.1"
