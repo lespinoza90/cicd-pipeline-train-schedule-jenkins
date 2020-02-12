@@ -1,5 +1,5 @@
 plugins {
-  id "com.moowork.node" version "1.5.2"
+  id "com.moowork.node"
 }
 node {
 	download = true
